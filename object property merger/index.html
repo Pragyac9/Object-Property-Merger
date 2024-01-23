@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background: url(https://wallpapercave.com/wp/wp3350654.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .main {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: larger;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+
+
+
+        .button-34 {
+            background: #5E5DF0;
+            border-radius: 999px;
+            box-shadow: #5E5DF0 0 10px 20px -10px;
+            /* box-sizing: border-box; */
+            color: #FFFFFF;
+            cursor: pointer;
+            font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            /* line-height: 24px; */
+            opacity: 1;
+            outline: 0 solid transparent;
+            padding: 8px 18px;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: fit-content;
+            word-break: break-word;
+            border: 0;
+        }
+
+        input {
+            min-width: 300px;
+            height: 30px;
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h2>Merge Objects</h2>
+        <label for="user1">Obejct 1 :</label><br><br>
+        <input type="text" name="" id="user1"><br>
+        <label for="user2">Obejct 2 :</label><br><br>
+        <input type="text" name="" id="user2"><br><br>
+        <button onclick="merge()" class="button-34">Merge Objects</button><br><br>
+        <span id="result"></span>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
